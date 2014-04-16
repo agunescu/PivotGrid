@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------------
+    RallyDev - BurnDown report
+--------------------------------------------------------------------------------
+* Add a new field to Rally to track the "Initial Planned" (Decimal: Initial Plan)
+    Q: Across all workspaces ?
+    Estimate 1/2 (d)
+    Res: http://sandbox.rallydev.com/
+    
+    CustomView -> Options:
+        - Share View
+        - Set as default
+        
+        - https://help.rallydev.com/customize-your-workspace#configuring%20workspace%20units
+   
+   
+* Customize a grid to allow editing this field (Close to Plan. Estimate (Built-in);
+    Q: Across all workspaces ?
+    Estimate 1/2 (d)
+    Res: http://sandbox.rallydev.com/
+
+* Create a Cross-tab report to sum the "Initial Plan" per:
+    - Epics;
+    - Iteration;
+    - Release;
+    Estimate: 15 d 
+    Res: http://demo.rasc.ch/eds/extjs42/pivotgrid/pivot.html
+    TBD: 
+    Alex
+        - download "Pivot.js"
+    Doru
+        - answer.json with all HLT User stories on 4.90 Rel.
+
+* Create a simple app to allow planning epics across iterations
+    Estimate: 5 d
+    
+    POC -> a window dialog
+    
+    ------------------------------------
+     <Release > <Epic> => Create US / Iteration
+    ------------------------------------
+                   Initial Plan
+    ------------------------------------
+    Iteration 1       [ 23 ]
+    Iteration 2       [ 12 ]
+    Iteration 3       [    ]
+    Iteration 4       [    ]
+    Iteration 5       [    ]
+    ------------------------------------
+                        <OK>
+    
+    Logic: 
+    If "Initial Plan" > 0 && not exist US/Iteration with Parent Epic1
+        - clone Epic to Iteration
+        - change Initial Plan to <Value>
+    else:
+        - find US on selected iteration with Parent epic1
+        - change planned value to <value>
+
+
+    

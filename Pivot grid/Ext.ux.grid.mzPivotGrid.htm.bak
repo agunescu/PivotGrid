@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html class="x-strict"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Ext.ux.grid.mzPivotGrid</title>
+<link rel="stylesheet" href="Ext.ux.grid.mzPivotGrid_files/example.css">
+<script src="Ext.ux.grid.mzPivotGrid_files/include-ext.js"></script><link rel="stylesheet" type="text/css" href="Ext.ux.grid.mzPivotGrid_files/ext-all-debug.css"><script type="text/javascript" src="Ext.ux.grid.mzPivotGrid_files/ext-all.js"></script>
+<script src="Ext.ux.grid.mzPivotGrid_files/options-toolbar.js"></script>
+<script src="Ext.ux.grid.mzPivotGrid_files/Ext.js"></script>
+<script src="Ext.ux.grid.mzPivotGrid_files/pivot.js"></script>
+<script src="Ext.ux.grid.mzPivotGrid_files/api-debug.js"></script>
+</head>
+<body id="ext-gen1018" class="x-body x-gecko x-theme-classic">
+    <h1>Pivot Grid example</h1></body></html>
